@@ -1,0 +1,8 @@
+train: dataset/images/train
+val: dataset/images/val
+
+nc: 2 # Número de classes (Redondo ou Quadrado)
+
+names:
+  0: vaso_redondo
+  1: vaso_quadrado

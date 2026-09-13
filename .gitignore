@@ -1,0 +1,17 @@
+# Ambientes Python
+.venv/
+venv/
+label_env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Resultados de treinamento
+runs/
+
+# Arquivos temporários
+*.log
+
+# Configurações locais
+.vscode/
