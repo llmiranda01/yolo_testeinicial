@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['erva_daninha', 'planta']
+
+roboflow:
+  workspace: lucas-de-oliveira-miranda-caetano
+  project: agro-vision-myjqd-yralk
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/lucas-de-oliveira-miranda-caetano/agro-vision-myjqd-yralk/1
