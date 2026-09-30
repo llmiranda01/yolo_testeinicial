@@ -1,0 +1,17 @@
+# Ambiente virtual Python - 5 GB, especifico desta maquina.
+# Recrie com:  python -m venv .venv && .venv/Scripts/pip install -r requirements.txt
+.venv/
+venv/
+env/
+
+# Caches do Python
+__pycache__/
+*.py[cod]
+
+# Cache de labels da ultralytics (regerado automaticamente a cada treino)
+*.cache
+
+# Arquivos de sistema
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,130 @@
+========================================================================
+ETAPA 1 - COLETA
+========================================================================
+  pares imagem+label encontrados : 383
+  imagens cruas sem label        : 84
+
+========================================================================
+ETAPA 2 - DEDUPLICACAO POR CONTEUDO (SHA256)
+========================================================================
+  arquivos rotulados de entrada  : 383
+  imagens unicas mantidas        : 299
+  copias redundantes descartadas : 84
+  grupos com label DIVERGENTE    : 23
+    -- hash 514d3b26c907 (mesma imagem, anotacoes diferentes)
+         game      test     2 caixas  WIN_20260922_14_53_27_Pro_jpg.rf.4389955d08264dcc1c5
+         agro      valid    2 caixas  WIN_20260922_14_53_27_Pro_jpg.rf.f3b4ed0df44e847b5c9
+    -- hash 7fc1a1408cd3 (mesma imagem, anotacoes diferentes)
+         game      train    2 caixas  Screenshot-2026-09-22-150623_png.rf.0fc89766c7f609b8
+         agro      train    2 caixas  Screenshot-2026-09-22-150623_png.rf.0ef8c583cbc0f12f
+         trainzip  train    2 caixas  Screenshot-2026-09-22-150623_png.rf.9fec0ac2d08706b2
+    -- hash 120b6216fa8f (mesma imagem, anotacoes diferentes)
+         game      train    2 caixas  Screenshot-2026-09-22-150643_png.rf.c66abd2b332d4d22
+         agro      train    2 caixas  Screenshot-2026-09-22-150643_png.rf.6ed3b11b245bc194
+         trainzip  train    2 caixas  Screenshot-2026-09-22-150643_png.rf.a23df2277d54e1e9
+    -- hash c9cfc29b7418 (mesma imagem, anotacoes diferentes)
+         game      train    2 caixas  Screenshot-2026-09-22-150748_png.rf.c5d65c8a01cc603f
+         agro      train    2 caixas  Screenshot-2026-09-22-150748_png.rf.e5e2d883ffc513e7
+         trainzip  train    2 caixas  Screenshot-2026-09-22-150748_png.rf.6ccda64e2d365181
+    -- hash 5112a6f089c1 (mesma imagem, anotacoes diferentes)
+         game      train    1 caixas  Screenshot-2026-09-22-151005_png.rf.49ea99df8ff46827
+         agro      valid    1 caixas  Screenshot-2026-09-22-151005_png.rf.e677bab8014123e4
+    -- hash dede6e541b5d (mesma imagem, anotacoes diferentes)
+         game      train    2 caixas  Screenshot-2026-09-22-151041_png.rf.95845fd0bb3c8adb
+         agro      train    2 caixas  Screenshot-2026-09-22-151041_png.rf.97ee5757af179999
+         trainzip  train    2 caixas  Screenshot-2026-09-22-151041_png.rf.a46d51f342c58edf
+    -- hash 92011d18f142 (mesma imagem, anotacoes diferentes)
+         game      train    1 caixas  Screenshot-2026-09-22-151109_png.rf.9efc4936a7effe55
+         agro      test     1 caixas  Screenshot-2026-09-22-151109_png.rf.8988c801cd7d1be1
+    -- hash c44e7e50f868 (mesma imagem, anotacoes diferentes)
+         game      train    1 caixas  Screenshot-2026-09-22-151122_png.rf.ec4715e767075788
+         agro      valid    1 caixas  Screenshot-2026-09-22-151122_png.rf.097524797fa410ab
+    -- hash bc462796b33e (mesma imagem, anotacoes diferentes)
+         game      train    1 caixas  Screenshot-2026-09-22-151142_png.rf.d07af442cdc06898
+         agro      train    1 caixas  Screenshot-2026-09-22-151142_png.rf.6de74bc4d59f53b6
+         trainzip  train    1 caixas  Screenshot-2026-09-22-151142_png.rf.3608e238f2d7140e
+    -- hash a6067bfbddc4 (mesma imagem, anotacoes diferentes)
+         game      train    1 caixas  Screenshot-2026-09-22-151156_png.rf.f74277137f652535
+         agro      train    1 caixas  Screenshot-2026-09-22-151156_png.rf.6c33b0d2c6bf8785
+         trainzip  train    1 caixas  Screenshot-2026-09-22-151156_png.rf.3c3cdf6b924bec11
+    -- hash dc75fcebe34e (mesma imagem, anotacoes diferentes)
+         game      train    1 caixas  Screenshot-2026-09-22-151218_png.rf.7bf879606f639764
+         agro      train    1 caixas  Screenshot-2026-09-22-151218_png.rf.166a163270f1cea7
+         trainzip  train    1 caixas  Screenshot-2026-09-22-151218_png.rf.8a0b351cbe7f6ee0
+    -- hash 8c4b14d0630d (mesma imagem, anotacoes diferentes)
+         game      train    2 caixas  WIN_20260922_14_52_42_Pro_jpg.rf.12276ef73f4891dd17d
+         agro      valid    2 caixas  WIN_20260922_14_52_42_Pro_jpg.rf.52c37db050dd4f7ef55
+    -- hash 6a6f56b7b3bf (mesma imagem, anotacoes diferentes)
+         game      train    2 caixas  WIN_20260922_14_52_46_Pro_jpg.rf.5bd6251e3fd0882bfbd
+         agro      valid    2 caixas  WIN_20260922_14_52_46_Pro_jpg.rf.306f425ee23bace9423
+    -- hash 820989062eea (mesma imagem, anotacoes diferentes)
+         game      train    2 caixas  WIN_20260922_14_52_54_Pro_jpg.rf.73424cbbe39ab105f67
+         agro      train    2 caixas  WIN_20260922_14_52_54_Pro_jpg.rf.8106edc9565509be07d
+    -- hash ba4dcc34fc1b (mesma imagem, anotacoes diferentes)
+         game      train    2 caixas  WIN_20260922_14_52_59_Pro_jpg.rf.fc6a7d731b515da0b9f
+         agro      valid    2 caixas  WIN_20260922_14_52_59_Pro_jpg.rf.2bbc4c570f31ac8720c
+    -- hash e81966679326 (mesma imagem, anotacoes diferentes)
+         game      train    2 caixas  WIN_20260922_14_53_03_Pro_jpg.rf.c008521308d36b1ee0e
+         agro      train    2 caixas  WIN_20260922_14_53_03_Pro_jpg.rf.af85c5b63621cc8930d
+    -- hash 34031a2f844c (mesma imagem, anotacoes diferentes)
+         game      train    2 caixas  WIN_20260922_14_53_12_Pro_jpg.rf.9d1a50d8419c53f68a0
+         agro      train    2 caixas  WIN_20260922_14_53_12_Pro_jpg.rf.41c775d1aba276848c6
+    -- hash 9b68f24d864d (mesma imagem, anotacoes diferentes)
+         game      train    2 caixas  WIN_20260922_14_53_21_Pro_jpg.rf.79ac02cd5f8c572aeb3
+         agro      train    2 caixas  WIN_20260922_14_53_21_Pro_jpg.rf.affde7722404b6ba495
+    -- hash 30aaee4533bc (mesma imagem, anotacoes diferentes)
+         game      valid    2 caixas  Screenshot-2026-09-22-150659_png.rf.8abd01715d0edd08
+         agro      train    2 caixas  Screenshot-2026-09-22-150659_png.rf.1ab718383f22b19a
+         trainzip  train    2 caixas  Screenshot-2026-09-22-150659_png.rf.59a30eb57b49fbca
+    -- hash 62f3c1b92a2e (mesma imagem, anotacoes diferentes)
+         game      valid    1 caixas  Screenshot-2026-09-22-150950_png.rf.7d0ad3cd0d0b83b9
+         agro      train    1 caixas  Screenshot-2026-09-22-150950_png.rf.924b14b618f0c18d
+         trainzip  train    1 caixas  Screenshot-2026-09-22-150950_png.rf.6b04a7f8c8136fa6
+    -- hash 5d208ee296f8 (mesma imagem, anotacoes diferentes)
+         game      valid    2 caixas  Screenshot-2026-09-22-151337_png.rf.eb5d1c17e6299f81
+         agro      valid    2 caixas  Screenshot-2026-09-22-151337_png.rf.9c8cf24f3a952602
+    -- hash ed83889ee9e2 (mesma imagem, anotacoes diferentes)
+         game      valid    2 caixas  Screenshot-2026-09-22-151357_png.rf.18059f0390aa0bc9
+         agro      train    2 caixas  Screenshot-2026-09-22-151357_png.rf.841a7517fff19495
+         trainzip  train    2 caixas  Screenshot-2026-09-22-151357_png.rf.a335fa1028821c91
+    -- hash e094b930d6fd (mesma imagem, anotacoes diferentes)
+         game      valid    2 caixas  WIN_20260922_14_52_35_Pro_jpg.rf.8b5c6f5698958324168
+         agro      train    2 caixas  WIN_20260922_14_52_35_Pro_jpg.rf.96358c923d95dfe9c5d
+  origens com >1 imagem unica    : 0 (ok)
+
+========================================================================
+ETAPA 3 - RE-SPLIT AGRUPADO (seed=42)
+========================================================================
+  grupos de fotos distintas      : 272
+  grupos com variantes unidas    : 26  (nunca separadas entre splits)
+    WIN_20260918_00_44_30_Pro          -> WIN_20260918_00_44_30_Pro, WIN_20260918_00_44_30_Pro-2-
+    WIN_20260918_00_44_31_Pro          -> WIN_20260918_00_44_31_Pro, WIN_20260918_00_44_31_Pro-2-
+    WIN_20260918_00_44_32_Pro          -> WIN_20260918_00_44_32_Pro, WIN_20260918_00_44_32_Pro-2-
+    WIN_20260918_00_44_33_Pro          -> WIN_20260918_00_44_33_Pro, WIN_20260918_00_44_33_Pro-2-, WIN_20260918_00_44_33_Pro-3-
+    WIN_20260918_00_44_36_Pro          -> WIN_20260918_00_44_36_Pro, WIN_20260918_00_44_36_Pro-2-
+    WIN_20260918_00_44_37_Pro          -> WIN_20260918_00_44_37_Pro, WIN_20260918_00_44_37_Pro-2-
+    WIN_20260918_00_44_38_Pro          -> WIN_20260918_00_44_38_Pro, WIN_20260918_00_44_38_Pro-2-
+    WIN_20260918_00_44_54_Pro          -> WIN_20260918_00_44_54_Pro, WIN_20260918_00_44_54_Pro-2-
+    ... e mais 18
+  train  206 imagens (68.9%)
+  valid   63 imagens (21.1%)
+  test    30 imagens (10.0%)
+
+========================================================================
+ETAPA 4 - ESCRITA
+========================================================================
+  destino: C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset
+  pares copiados        : 299
+  nao anotadas copiadas : 84 (82 ja anotadas / 2 ineditas)
+
+========================================================================
+ADICAO: Agro-vision2.v1i.yolov11.zip (export 2026-09-30 00:44)
+========================================================================
+  imagens no zip            : 54
+  adicionadas               : 54
+  ignoradas (duplicata)     : 0
+  splits honrados do proprio zip (0 colisao de grupo com o dataset)
+  train  206 -> 244  (+38, faixas 0207..0244)
+  valid   63 ->  74  (+11, faixas 0064..0074)
+  test    30 ->  35  (+5, faixas 0031..0035)
+  TOTAL  299 -> 353

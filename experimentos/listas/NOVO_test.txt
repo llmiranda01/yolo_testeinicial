@@ -1,0 +1,5 @@
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\test\images\test_0031.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\test\images\test_0032.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\test\images\test_0033.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\test\images\test_0034.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\test\images\test_0035.jpg

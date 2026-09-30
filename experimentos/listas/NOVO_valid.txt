@@ -1,0 +1,11 @@
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\valid\images\valid_0064.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\valid\images\valid_0065.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\valid\images\valid_0066.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\valid\images\valid_0067.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\valid\images\valid_0068.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\valid\images\valid_0069.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\valid\images\valid_0070.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\valid\images\valid_0071.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\valid\images\valid_0072.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\valid\images\valid_0073.jpg
+C:\Users\Maria Aparecida\Downloads\yolo_testeinicial-main\yolo_testeinicial-main\dataset\valid\images\valid_0074.jpg

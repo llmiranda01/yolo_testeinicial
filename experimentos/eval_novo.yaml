@@ -1,0 +1,9 @@
+# APENAS as cenas novas do Agro-vision2 (25/09)
+train: C:/Users/Maria Aparecida/Downloads/yolo_testeinicial-main/yolo_testeinicial-main/experimentos/listas/NOVO_valid.txt
+val: C:/Users/Maria Aparecida/Downloads/yolo_testeinicial-main/yolo_testeinicial-main/experimentos/listas/NOVO_valid.txt
+test: C:/Users/Maria Aparecida/Downloads/yolo_testeinicial-main/yolo_testeinicial-main/experimentos/listas/NOVO_test.txt
+
+nc: 2
+names:
+  0: erva_daninha
+  1: planta

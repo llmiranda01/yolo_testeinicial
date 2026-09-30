@@ -1,0 +1,12 @@
+{
+  "A_299": {
+    "dir": "C:\\Users\\Maria Aparecida\\Downloads\\yolo_testeinicial-main\\yolo_testeinicial-main\\runs_treino\\A_299",
+    "minutos": 26.7,
+    "epochs_rodadas": 200
+  },
+  "B_353": {
+    "dir": "C:\\Users\\Maria Aparecida\\Downloads\\yolo_testeinicial-main\\yolo_testeinicial-main\\runs_treino\\B_353",
+    "minutos": 16.3,
+    "epochs_rodadas": 106
+  }
+}

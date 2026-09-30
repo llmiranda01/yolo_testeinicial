@@ -1,0 +1,104 @@
+{
+  "A_299": {
+    "desc": "299 img (206 train) - antes do Agro-vision2",
+    "pesos": "C:\\Users\\Maria Aparecida\\Downloads\\yolo_testeinicial-main\\yolo_testeinicial-main\\runs_treino\\A_299\\weights\\best.pt",
+    "treino": {
+      "epochs_rodadas": 200,
+      "melhor_epoch": 190,
+      "melhor_mAP50_95_no_valid_proprio": 0.8708
+    },
+    "val": {
+      "mAP50": 0.9853013428011049,
+      "mAP50_95": 0.8707609729795914,
+      "precisao": 0.9712738252664255,
+      "recall": 0.9633610081067532,
+      "por_classe": {
+        "erva_daninha": {
+          "precisao": 0.9762734749229407,
+          "recall": 0.9625095029417152,
+          "mAP50": 0.9920883556743154,
+          "mAP50_95": 0.8901425695634793
+        },
+        "planta": {
+          "precisao": 0.9662741756099102,
+          "recall": 0.9642125132717911,
+          "mAP50": 0.9785143299278944,
+          "mAP50_95": 0.8513793763957033
+        }
+      },
+      "f1": 0.9672924376604588
+    },
+    "test": {
+      "mAP50": 0.9812018096860087,
+      "mAP50_95": 0.8716595961295168,
+      "precisao": 0.9476986493172888,
+      "recall": 0.9760765550239234,
+      "por_classe": {
+        "erva_daninha": {
+          "precisao": 0.9331730449827851,
+          "recall": 1.0,
+          "mAP50": 0.9930840147506813,
+          "mAP50_95": 0.9199697407779068
+        },
+        "planta": {
+          "precisao": 0.9622242536517923,
+          "recall": 0.9521531100478469,
+          "mAP50": 0.9693196046213359,
+          "mAP50_95": 0.8233494514811266
+        }
+      },
+      "f1": 0.9612968291796864
+    }
+  },
+  "B_353": {
+    "desc": "353 img (244 train) - com Agro-vision2",
+    "pesos": "C:\\Users\\Maria Aparecida\\Downloads\\yolo_testeinicial-main\\yolo_testeinicial-main\\runs_treino\\B_353\\weights\\best.pt",
+    "treino": {
+      "epochs_rodadas": 106,
+      "melhor_epoch": 86,
+      "melhor_mAP50_95_no_valid_proprio": 0.863
+    },
+    "val": {
+      "mAP50": 0.9784555499817197,
+      "mAP50_95": 0.8546427068442168,
+      "precisao": 0.9819204236514887,
+      "recall": 0.9513678025191183,
+      "por_classe": {
+        "erva_daninha": {
+          "precisao": 0.9919932436119877,
+          "recall": 0.9532163742690059,
+          "mAP50": 0.9817361401909318,
+          "mAP50_95": 0.8865111710506476
+        },
+        "planta": {
+          "precisao": 0.9718476036909895,
+          "recall": 0.9495192307692307,
+          "mAP50": 0.9751749597725076,
+          "mAP50_95": 0.8227742426377862
+        }
+      },
+      "f1": 0.9663859932739476
+    },
+    "test": {
+      "mAP50": 0.9829353358621772,
+      "mAP50_95": 0.8517603023483105,
+      "precisao": 0.9476959455444853,
+      "recall": 0.9720906312926808,
+      "por_classe": {
+        "erva_daninha": {
+          "precisao": 0.9384368909768024,
+          "recall": 0.9868421052631579,
+          "mAP50": 0.9904134852801518,
+          "mAP50_95": 0.8903811566171796
+        },
+        "planta": {
+          "precisao": 0.9569550001121683,
+          "recall": 0.9573391573222038,
+          "mAP50": 0.9754571864442025,
+          "mAP50_95": 0.8131394480794414
+        }
+      },
+      "f1": 0.959589019115499
+    }
+  }
+}

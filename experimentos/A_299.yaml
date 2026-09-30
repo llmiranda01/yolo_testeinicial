@@ -1,0 +1,9 @@
+# MODELO A - dataset antes do Agro-vision2 (299 img: 206/63/30)
+train: C:/Users/Maria Aparecida/Downloads/yolo_testeinicial-main/yolo_testeinicial-main/experimentos/listas/A_train.txt
+val: C:/Users/Maria Aparecida/Downloads/yolo_testeinicial-main/yolo_testeinicial-main/experimentos/listas/A_valid.txt
+test: C:/Users/Maria Aparecida/Downloads/yolo_testeinicial-main/yolo_testeinicial-main/experimentos/listas/A_test.txt
+
+nc: 2
+names:
+  0: erva_daninha
+  1: planta

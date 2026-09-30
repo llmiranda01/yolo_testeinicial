@@ -1,0 +1,14 @@
+# Agro-vision - dataset unificado (YOLO11)
+# fontes: Agro-vision-game, Agro-vision, train.zip, Agro-vision2
+# deduplicado por SHA256; splits sem vazamento entre grupos de foto
+# 353 imagens unicas: 244 train / 74 valid / 35 test
+
+path: C:/Users/Maria Aparecida/Downloads/yolo_testeinicial-main/yolo_testeinicial-main/dataset
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names:
+  0: erva_daninha
+  1: planta
